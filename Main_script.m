@@ -5,14 +5,9 @@
 global sim svdir mfddir root testbed macro
 
 % %Office PC 
-testbed = 'C:\Users\s4544191\cloudstor\HomePC\testbeddata';
-root = 'C:\Users\s4544191\cloudstor\HomePC\regional\';
-macro = 'C:\Users\s4544191\cloudstor\HomePC\macro_static';
-
-%Home PC 
-% testbed = 'C:\Users\Sakitha\Documents\ODEStimationMatlab\HomePC\testbeddata';
-% root = 'C:\Users\Sakitha\Documents\ODEStimationMatlab\HomePC\regional\';
-% macro = 'C:\Users\Sakitha\Documents\ODEStimationMatlab\HomePC\macro_static';
+testbed = 'C:\testbeddata';
+root = 'C:\regional\';
+macro = 'C:\macro_static';
 
 svdir = strcat(root,'OD_Estimation_Output\');
 mfddir = strcat(root,'MFD\');
