@@ -13,7 +13,7 @@ The region-level traffic flows are described by the MFD, while the centroid-leve
 The hybrid DODE problem presented in this study introduces the hybrid modelling of traffic dynamics. This is accomplished by incorporating a centroid-level linear approximation and a region-level traffic model which operates simultaneously. 
 
 <p align="center">
-<img src="BilvFml.png " width="50%" height="50%">
+<img src="BilvFml.png " width="40%" height="40%">
 </p>
 
 Figure shows a conceptual diagram of the hybrid DODE framework. We have hybrid DODE as the upper level and traffic assignment as the lower-level. Note that there are three traffic models in this framework. The traffic assignment level is a simulation based model which operates closer to real traffic networks, while there are two other traffic models being used in the OD estimation level. These two models are analytical models based on the hierarchy of operation. The centroid-level is modelled as a linear traffic approximation model which maps the OD flows onto link counts via an assignment matrix.
