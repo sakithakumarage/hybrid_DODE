@@ -33,16 +33,16 @@ This repositiory contains following functions that could be used to execute the 
 ### Documnetation
 
 An implementation of the proposed Hybrid DODE framework is documented and given in :
-[Link to Paper after publicatoion] 
+[Link to Paper after publication] 
 ### Software Requirements
 
-The hybrid DODE framework requires three main software categories that could be listed as:
+The hybrid DODE framework requires three main software tools that could be listed as:
 
 - a programming language
 - traffis assignment software 
 - non-linear, non-convex optimization tool
 
-This repository and associated scripts are developed to execute along with following software tools.
+This repository and its associated scripts are designed to work with the software tools listed below.
 
 | Software     | Version Required |
 | :---         |    :----:        |  
