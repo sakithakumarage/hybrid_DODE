@@ -26,7 +26,7 @@ This repositiory contains following functions that could be used to execute the 
 - **run_simulator_RG.m** : script that execute the traffic assignmnet and retrieve region-level data
 - **build_ODestimation_combined3.m** : CasADI based script that develop the hybride DODE optimisation problem
 - **solve_ODestimation_combined3.m** : CasADI based script that solve the hybride DODE optimisation problem
-- **purturb_OD.m** : script that purthurb ground-truth OD matrices
+- **purturb_OD.m** : script that perturb ground-truth OD matrices
 - **CalibrateMFD.m** : The script to calibrate MFD parameters acrroding to traffic conditions
 - **build_calibration2.m** : CasADI based script that develop the calibraition of the regional parameters.
 - **solve_calibration2.m** : CasADI based script that solvesthe calibraition optimization problem built by  build_calibration2.m.
