@@ -3,7 +3,7 @@
 
 A hybrid modelling framework for the estimation of dynamic origin-destination flows
 
-This repository keeps the code base of hybrid dynamic origin-destination flow estimation (hybrid-DODE) method proposed in [LINK of the paper]
+This repository includes the codes for the hybrid dynamic origin-destination flow estimation (hybrid-DODE) method proposed in [LINK of the paper]
 
 The novel hybrid DODE framework introduces synchronous modelling of region-level and centroid-level traffic dynamics into DODE prolems. 
 
@@ -21,26 +21,26 @@ Figure shows a conceptual diagram of the hybrid DODE framework. We have hybrid D
 
 This repositiory contains following functions that could be used to execute the hybrid-DODE in any urban network 
 
-- **Main_script.m** : Main script that execute the Hybrid DODE
-- **run_simulator_CN.m** : script that execute the traffic assignmnet and retrieve centroid-level data
-- **run_simulator_RG.m** : script that execute the traffic assignmnet and retrieve region-level data
-- **build_ODestimation_combined3.m** : CasADI based script that develop the hybride DODE optimisation problem
-- **solve_ODestimation_combined3.m** : CasADI based script that solve the hybride DODE optimisation problem
-- **purturb_OD.m** : script that perturb ground-truth OD matrices
-- **CalibrateMFD.m** : The script to calibrate MFD parameters acrroding to traffic conditions
-- **build_calibration2.m** : CasADI based script that develop the calibraition of the regional parameters.
-- **solve_calibration2.m** : CasADI based script that solvesthe calibraition optimization problem built by  build_calibration2.m.
-### Documnetation
+- **Main_script.m** : Main script that executes the Hybrid DODE.
+- **run_simulator_CN.m** : script that executes the traffic assignment and retrieves centroid-level data from the simulator.
+- **run_simulator_RG.m** : script that executes the traffic assignmnet and retrieves region-level data.
+- **build_ODestimation_combined3.m** : CasADI based script that builds the hybride DODE optimisation problem.
+- **solve_ODestimation_combined3.m** : CasADI based script that solves the hybrid DODE optimisation problem.
+- **purturb_OD.m** : script that perturbs ground-truth OD matrices.
+- **CalibrateMFD.m** : The script to calibrate MFD parameters according to traffic conditions.
+- **build_calibration2.m** : CasADI based script that builds the calibration problem for the regional traffic model.
+- **solve_calibration2.m** : CasADI based script that solves the calibrations problem.
+### Documentation
 
 An implementation of the proposed Hybrid DODE framework is documented and given in :
 [Link to Paper after publication] 
 ### Software Requirements
 
-The hybrid DODE framework requires three main software tools that could be listed as:
+The hybrid DODE framework requires three main tools that could be listed as:
 
 - a programming language
-- traffis assignment software 
-- non-linear, non-convex optimization tool
+- traffic assignment software
+- non-linear, non-convex optimization solver
 
 This repository and its associated scripts are designed to work with the software tools listed below.
 
